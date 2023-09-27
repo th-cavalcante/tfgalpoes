@@ -65,7 +65,7 @@ header .box-toogle span {
     align-items: center;
   }
   header .box-logo img {
-    height: 250px;
+    height: 150px;
   }
   header nav {
     position: absolute;
@@ -113,7 +113,7 @@ header .box-toogle span {
     z-index: 999;
   }
   header .box-toogle span {
-    color: #002C41;
+    color: #fff;
     font-size: 30px;
   }
 }/*# sourceMappingURL=Header.css.map */
