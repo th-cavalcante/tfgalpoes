@@ -1,6 +1,8 @@
+
 import { useEffect } from 'react'
 
 import '../styles/Main/Main.css'
+import { Link } from 'react-router-dom';
 
 
 const Main = () => {
@@ -14,9 +16,15 @@ const Main = () => {
 
       <div className="content-main">
         <div className="text-content">
-          <h1>GALPÕES EM CONDOMINIO LOGÍSTICO</h1>
+          <h1>GALPÕES EM CONDOMÍNIO LOGÍSTICO</h1>
           
-          <h3>Entre em contato e solicite o seu orçamento.</h3>
+          <h3>Entre em contato </h3>
+        </div>
+
+        <div className='btn-main'>
+          <a href=""><button className='btn-whatsapp'><i className="fa-brands fa-whatsapp"></i>Fale pelo whatsapp</button></a>
+          <Link to="contact"><button className='btn-msg'><i className="fa-regular fa-envelope"></i>Entre em contato</button></Link>
+          
         </div>
 
         
