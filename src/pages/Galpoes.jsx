@@ -42,7 +42,7 @@ const Galpoes = () => {
     <section id="services">
       
       <div className="title-services">
-        <h1>Nossos Galpões</h1>
+        <h1>Galpões disponiveis</h1>
         
         <div className="icon-title">
           <hr />
@@ -63,6 +63,7 @@ const Galpoes = () => {
           </div>
           
           <div className="txt-card">
+          <p className='availability_ok'>2 Módulos disponiveis</p>
             <h2>G6 Empresarial</h2>
             <p><span>G6 Empresarial</span> é um condomínio industrial e logístico composto por 10 módulos com alto padrão de qualidade.</p>
             <button onClick={openDescriptionG6}>Veja mais</button>
@@ -79,6 +80,7 @@ const Galpoes = () => {
           </div>
           
           <div className="txt-card">
+            <p className='availability'>Indisponivel*</p>
             <h2>G8 Business Park</h2>
             <p><span>G8 Business Park</span> é um condomínio industrial e logístico composto por 8 módulos com alto padrão de qualidade.</p>
             <button onClick={openDescriptionG8}>Veja mais</button>
@@ -93,6 +95,7 @@ const Galpoes = () => {
           </div>
           
           <div className="txt-card" >
+          <p className='availability'>Indisponivel*</p>
             <h2>G10 Empresarial</h2>
             <p><span>G10 Empresarial</span> é um condomínio industrial e logístico composto por 10 módulos com alto padrão de qualidade.</p>
             <button onClick={openDescriptionG10} >Veja mais</button>

@@ -16,14 +16,14 @@ const Main = () => {
 
       <div className="content-main">
         <div className="text-content">
-          <h1>GALPÕES EM CONDOMÍNIO LOGÍSTICO</h1>
+          <h1>GALPÕES EM CONDOMÍNIO LOGÍSTICO EM JANDIRA E CAJAMAR</h1>
           
           <h3>Entre em contato </h3>
         </div>
 
         <div className='btn-main'>
           <a href=""><button className='btn-whatsapp'><i className="fa-brands fa-whatsapp"></i>Fale pelo whatsapp</button></a>
-          <Link to="contact"><button className='btn-msg'><i className="fa-regular fa-envelope"></i>Entre em contato</button></Link>
+          <Link to="galpoes"><button className='btn-msg'><i className="fa-solid fa-building-flag"></i>Galpões disponiveis</button></Link>
           
         </div>
 

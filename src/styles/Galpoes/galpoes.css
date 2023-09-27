@@ -61,6 +61,17 @@
   text-align: center;
   padding-top: 1rem;
 }
+#services .container-services .cards-services .txt-card .availability_ok {
+  color: rgb(201, 178, 46);
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid blue;
+}
+#services .container-services .cards-services .txt-card .availability {
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+}
 #services .container-services .cards-services .txt-card h2 {
   font-size: 30px;
 }
