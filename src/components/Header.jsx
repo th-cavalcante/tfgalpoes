@@ -34,8 +34,7 @@ function Header() {
             <nav className={`nav ${menuOpen ? 'open' : ''}`}>
                <ul>
                   <li><Link to='/' onClick={removeNav}>Home</Link></li>
-                  <li><Link to='/galpoes'onClick={removeNav}>Serviços</Link></li>
-                  <li><Link to='/about'onClick={removeNav}>Sobre</Link></li>
+                  <li><Link to='/galpoes'onClick={removeNav}>Galpões</Link></li>
                   <li><Link to='/contact'onClick={removeNav}>Contatos</Link></li>
                  
                  
