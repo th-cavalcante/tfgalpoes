@@ -1,0 +1,155 @@
+@import '../variables.scss';
+
+#contact{
+    font-family: $font;
+    background-color: #fff;
+    
+    h1{
+        color: #1D1F2B;
+        text-align: center;
+        padding-top: 7rem;
+        padding-bottom: 3rem;
+        font-size: 30px;
+    }
+    .container-main-contact{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display: flex;
+        justify-content: space-around;
+        
+        color: #1D1F2B;
+        .box-contact{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            p{
+                font-size: 23px;
+                font-weight: 600;
+                i{
+                    margin: 10px;
+                }
+            }
+           
+        }
+        .box-form{
+            
+            
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                label{
+                    font-size: 16px;
+                    font-weight: 600;
+                    color:#42444e;
+                }
+                input{
+                    border: 2px solid #a2a5b3;
+                    outline: none;
+                    height: 40px;
+                    font-size: 16px;  
+                    font-family: $font;
+                    color: #1D1F2B;
+                }
+                button{
+                    height: 40px;
+                    border: none;
+                    cursor: pointer;
+                    background-color: rgb(170, 8, 8);
+                    color: #fff;
+                    text-transform: uppercase;
+                    border: 1px solid #8f8787;
+                    font-size: 17px;
+                }
+                textarea{
+                    font-size: 16px;  
+                    font-family: $font;
+                    outline: none;
+                    border: 2px solid #a2a5b3;
+                }
+                button:hover{
+                    background-color: rgb(206, 32, 32);
+                }
+                
+            }
+
+        }
+    }
+}
+
+@media (max-width:780px){
+    
+
+
+
+#contact{
+    
+  
+    h1{
+        
+        text-align: center;
+        padding-top: 7rem;
+        padding-bottom: 3rem;
+    }
+    .container-main-contact{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        max-width: 95%;
+        margin: auto;
+      
+        
+        .box-contact{
+            
+            justify-content: center;
+            padding-bottom: 3rem;
+            
+            
+            p{
+                font-size: 18px;
+               
+                i{
+                    margin: 10px;
+                }
+            }
+           
+        }
+        .box-form{
+            
+            
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                
+                padding: 10px;
+                label{
+                    font-size: 16px;
+                }
+                input{
+                   
+                    outline: none;
+                    height: 40px;   
+                }
+                button{
+                    height: 40px;
+                    border: none;
+                    cursor: pointer;
+                    background-color: rgb(170, 8, 8);
+                    color: #fff;
+                    text-transform: uppercase;
+                    border: 1px solid #8f7d7d;
+                    font-size: 17px;
+                }
+                button:hover{
+                    background-color: rgb(206, 32, 32);
+                }
+                
+            }
+
+        }
+    }
+}
+}
