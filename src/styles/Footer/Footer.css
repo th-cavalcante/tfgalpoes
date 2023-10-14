@@ -2,6 +2,8 @@ footer {
   background-color: #002C41;
   padding: 1px;
   font-family: "montserrat";
+  max-width: 1980px;
+  margin: auto;
 }
 footer hr {
   height: 5px;
